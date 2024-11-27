@@ -2,9 +2,9 @@ Backend Project
 
 Prérequis
 
-Node.js : Installation Node.js
-MongoDB : si MongoDB est installé et en cours d'exécution sur la machine ou l'utilisation un service en ligne.
-npm : Le gestionnaire de paquets pour Node.js.
+-Node.js : Installation Node.js  
+-MongoDB : si MongoDB est installé et en cours d'exécution sur la machine ou l'utilisation un service en ligne.
+-npm : Le gestionnaire de paquets pour Node.js.
 
 Installez les dépendances :
 bash
