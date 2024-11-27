@@ -19,15 +19,11 @@ Cela démarrera le serveur sur le port défini dans  .env (par défaut PORT=3100
 
 Commandes d'Importation dans MongoDB pour les produits et les ventes associer 
 
-Copier le code
 ---  mongoimport --uri mongodb://localhost:27017/(votreBaseDeDonnees) --collection produits --file ./path/to/products.json --jsonArray
 Cela importera les données du fichier products.json dans la collection produits de la base de données MongoDB.
 
-Importation un fichier CSV dans MongoDB
-
-Copier le code
 ---  mongoimport --uri mongodb://localhost:27017/(votreBaseDeDonnees) --collection ventes --type csv --file ./path/to/sales.csv --headerline
-Cela importera les données du fichier sales.json dans la collection sales de votre base de données MongoDB.
+Cela importera les données du fichier sales.json dans la collection sales de la base de données MongoDB.
 
 Routes de l'API
 1. GET /products
